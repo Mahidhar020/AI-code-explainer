@@ -65,6 +65,6 @@ for i in range(5):
 
 ## 📬 Contact
 
-Made with ❤️ by Your Name  
-✉️ Email: student@domain.com  
-🔗 GitHub: [github.com/yourusername](https://github.com/yourusername/ai-code-explainer)
+Made with ❤️ by Your Mahidhar
+✉️ Email: mahidharreddy020@gmail.com 
+🔗 GitHub: [github.com/Mahidhar020](https://github.com/Mahidhar020/ai-code-explainer)
