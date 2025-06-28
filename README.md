@@ -15,7 +15,7 @@ This project is an AI-powered web application that explains code snippets in pla
 - **Languages Supported**: Python, JavaScript
 - **Other Tools**: `streamlit`, `openai`, `dotenv`
 
-## 📦 Installation
+## 📦Installation
 
 1. Clone the repo:
 
