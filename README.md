@@ -1,70 +1,95 @@
-# 🧠 AI Code Explainer using Generative AI
+# 🧠 AI Code Explainer
 
-This project is an AI-powered web application that explains code snippets in plain English. It is designed to help beginners and programmers understand complex programming logic using natural language explanations powered by OpenAI’s GPT models.
+A simple Streamlit-based web app that explains Python code snippets using basic logic matching. Designed as a proof of concept for beginners learning how to build AI-powered developer tools.
+
+---
 
 ## 🚀 Features
-- ✅ Explains Python and JavaScript code
-- ✅ Clean and simple UI with Streamlit
-- ✅ Supports common constructs: loops, functions, conditionals, etc.
-- ✅ Handles invalid/incomplete code gracefully
-- ✅ Fast and context-aware responses using GPT-4
+
+- Paste any Python code into the text area
+- Click the **Explain Code** button to generate an explanation
+- Supports a few predefined code examples
+- Includes screenshots of the application interface
+
+---
+
+## 📸 Screenshots
+
+<img src="images/example1.png" width="400"/>
+<img src="images/example2.png" width="400"/>
+
+---
 
 ## 🛠️ Tech Stack
-- **Frontend**: Streamlit (Python)
-- **Backend**: OpenAI GPT-4 via API
-- **Languages Supported**: Python, JavaScript
-- **Other Tools**: `streamlit`, `openai`, `dotenv`
 
-## 📦Installation
+- Python 🐍
+- Streamlit 📺
 
-1. Clone the repo:
+---
 
-```bash
-git clone https://github.com/yourusername/ai-code-explainer.git
-cd ai-code-explainer
-```
+## 📦 Installation
 
-2. Install dependencies:
+1. **Clone the repository or download the zip**:
+   ```bash
+   git clone https://github.com/your-username/ai-code-explainer.git
+   cd ai-code-explainer
+   ```
 
-```bash
-pip install -r requirements.txt
-```
+2. **(Optional but recommended)**: Create a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate     # On Windows: venv\Scripts\activate
+   ```
 
-3. Add your OpenAI API Key in a `.env` file:
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-```env
-OPENAI_API_KEY=your_api_key_here
-```
+---
 
-4. Run the app:
+## ▶️ Running the App
+
+Start the Streamlit server locally:
 
 ```bash
 streamlit run app.py
 ```
 
-## 🖥️ Example
+Open your browser and go to: `http://localhost:8501`
 
-**Input:**
+---
+
+## 🧪 Sample Code Inputs
+
+Try pasting the following Python snippets:
+
 ```python
 for i in range(5):
     print(i)
 ```
 
-**Output Explanation:**
-> This loop runs from 0 to 4 and prints each number. It uses the `range()` function and a `for` loop in Python.
+```python
+def greet(name):
+    print("Hello," + name)
+```
+
+---
 
 ## 📁 Project Structure
 
 ```
+ai_code_explainer/
 ├── app.py
-├── README.md
 ├── requirements.txt
-├── AI_Code_Explainer_Project_Report.pdf
-├── AI_Code_Explainer_Project_Report.docx
+├── README.md
+└── images/
+    ├── example1.png
+    └── example2.png
 ```
 
-## 📬 Contact
+---
 
-Made with ❤️ by Your Mahidhar
-✉️ Email: mahidharreddy020@gmail.com 
-🔗 GitHub: [github.com/Mahidhar020](https://github.com/Mahidhar020/ai-code-explainer)
+## 📝 License
+
+This project is open source and free to use for educational purposes.
